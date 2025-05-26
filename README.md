@@ -30,25 +30,18 @@ Mental health is often overlooked in prison systems, where access to support is 
 - **Backend**: Node.js, Express  
 - **Database**: MongoDB
 - **Authentication/Privacy**: Anonymous user tokens, encryption standards  
-- **Hosting**: Netlifly
-
-  
-## 🚀 Getting Started
-
-To run ReformStory locally:
-
-``bash
-git clone https://github.com/your-username/reformstory.git
-cd reformstory
-npm install
-npm start
-
 
 ## 📫 Contact
-
 For questions, feedback, or collaboration opportunities, feel free to reach out:  
 📧 siddharth.alluri@gmail.com  
 🌐 siddharthalluri.com
 
+## 🚀 Getting Started
 
+To run ReformStory locally:
 
+```bash
+git clone https://github.com/your-username/reformstory.git
+cd reformstory
+npm install
+npm start
