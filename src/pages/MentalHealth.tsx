@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
 import Header from '@/components/Header';
 import { Button } from '@/components/ui/button';
@@ -59,12 +59,12 @@ const personalizedContent = {
     exercises: [
       {
         title: 'Gratitude Practice',
-        description: 'Write down three things you're grateful for today, no matter how small.',
+        description: 'Write down three things you are grateful for today, no matter how small.',
         duration: '5 minutes'
       },
       {
         title: 'Pleasant Activity Scheduling',
-        description: 'Plan and engage in one small enjoyable activity each day, even when you don't feel like it.',
+        description: 'Plan and engage in one small enjoyable activity each day, even when you do not feel like it.',
         duration: 'Varies'
       },
       {
@@ -138,8 +138,8 @@ const MentalHealth = () => {
     const trend = lastIntensity < firstIntensity ? "improving" : "worsening";
     
     if (average > 7) return { message: "Your emotions have been intense lately", trend };
-    if (average > 5) return { message: "You're experiencing moderate emotional fluctuation", trend };
-    return { message: "You've been relatively stable recently", trend };
+    if (average > 5) return { message: "You are experiencing moderate emotional fluctuation", trend };
+    return { message: "You have been relatively stable recently", trend };
   };
   
   const trendInfo = calculateEmotionTrend();
